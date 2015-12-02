@@ -32,3 +32,5 @@ Play around with it a bit more by trying out the following in this file:
 * Continue to operate on our student, `steve`. Have `avi` teach him some more important knowledge. 
 * Create a new student and have that student learn a few things from `avi` as well. 
 * Then, `puts` out the existing knowledge of each student. 
+
+<a href='https://learn.co/lessons/ruby-inheritance-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
