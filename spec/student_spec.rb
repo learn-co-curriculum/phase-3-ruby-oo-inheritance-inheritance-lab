@@ -37,8 +37,8 @@ describe "Student" do
 
   describe "#knowledge" do 
     it "returns that student's knowledge array" do 
-      student.learn("Javascript Ember Exlixir knowledge") 
-      expect(student.knowledge).to include("Javascript Ember Exlixir knowledge")
+      student.learn("Javascript Ember Elixir knowledge") 
+      expect(student.knowledge).to include("Javascript Ember Elixir knowledge")
     end
   end
 end
