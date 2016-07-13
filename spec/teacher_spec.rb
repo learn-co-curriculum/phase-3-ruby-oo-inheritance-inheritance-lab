@@ -17,8 +17,8 @@ describe "Teacher" do
 
   describe "#last_name" do 
     it "has a last name" do 
-      teacher.last_name = "Flombom"
-      expect(teacher.last_name).to eq("Flombom")
+      teacher.last_name = "Flombaum"
+      expect(teacher.last_name).to eq("Flombaum")
     end
   end
 
