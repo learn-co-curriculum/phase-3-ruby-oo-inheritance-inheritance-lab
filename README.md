@@ -20,7 +20,7 @@ Run the test suite to get started. This is a test-driven lab.
 4. We've given you a barebones `Student` class. Change the class definition so that it inherits from the `User` class. Run the test suite and notice that you are passing some tests for the `Student` class, even without writing any code inside that class. That is because it will inherit the `#first_name` and `#last_name` methods from the `User` class you told it to inherit from. 
 5. Individual students should initialize with an instance variable, `@knowledge`, that points to an empty array. 
 6. Define a method, `#learn`, that takes in a string and adds that string to the student's `@knowledge` array. 
-7. Define a method, `#knowledge`, that returns that students knowledge array. 
+7. Define a method, `#knowledge`, that returns that student's knowledge array. 
 
 ### Bonus
 
@@ -34,3 +34,5 @@ Play around with it a bit more by trying out the following in this file:
 * Then, `puts` out the existing knowledge of each student. 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-inheritance-lab' title='Ruby Inheritance Lab'>Ruby Inheritance Lab</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-inheritance-lab'>Intro to Inheritance Lab</a> on Learn.co and start learning to code for free.</p>
