@@ -1,4 +1,4 @@
-# Ruby Inheritance Lab
+# Inheritance Lab
 
 ## Objectives
 
