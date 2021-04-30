@@ -1,12 +1,11 @@
-# Inheritance Lab
+# Object Inheritance Lab
 
-## Objectives
+## Learning Goals
 
-1. Define classes that inherit from a shared parent, or super, class. 
-2. Define methods unique to those classes. 
+- Define classes that inherit from a shared parent, or super, class. 
+- Define methods unique to those classes. 
 
-
-## Overview
+## Introduction
 
 In this lab, we'll be working with a school domain model. Our application has users that are either teachers or students. Teachers and students will share certain attributes and have certain behaviors that are unique to them. You'll be defining a `User` class that both students and teachers inherit from and you'll be writing methods within both the `Teacher` and `Student` class that are unique to that class. 
 
