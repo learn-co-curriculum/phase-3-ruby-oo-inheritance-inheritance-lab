@@ -1,10 +1,8 @@
-require "spec_helper"
-
-describe "Student" do 
+describe Student do 
   let!(:student) { Student.new }
 
   it "inherits from the User class" do
-    expect(Student.ancestors).to include(User) 
+    expect(Student.superclass).to be(User) 
   end
   
   describe "#first_name" do 
@@ -21,8 +19,8 @@ describe "Student" do
     end
   end
 
-  describe "#new" do
-    it "initializes with an empty knowledge array" do
+  describe ".new" do
+    it "is initialized with an empty @knowledge array" do
       sophie = Student.new
       expect(sophie.instance_variable_get(:@knowledge)).to eq([]) 
     end 
