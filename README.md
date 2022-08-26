@@ -26,9 +26,10 @@ Run the test suite to get started. This is a test-driven lab.
    `Teacher` class, even without writing any code inside that class. That is
    because it will inherit the `#first_name` and `#last_name` methods from the
    `User` class you told it to inherit from.
-3. We've given you a class constant `KNOWLEDGE`, that points to an array of
-   knowledge strings. Write a method, `#teach` that returns a random element
-   from that array. You might want to look up the `Array#sample` method.
+3. Within the 'Teacher' class, we've given you a class constant `KNOWLEDGE`,
+   that points to an array of knowledge strings. Write a method, `#teach` that
+   returns a random element from that array. You might want to look up the
+   `Array#sample` method.
 4. We've given you a barebones `Student` class. Change the class definition so
    that it inherits from the `User` class. Run the test suite and notice that
    you are passing some tests for the `Student` class, even without writing any
